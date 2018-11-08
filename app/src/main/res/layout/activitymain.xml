@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#31517e"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:orientation="vertical"
+    tools:context=".activitymain"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/llegada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="#37cc4b"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="Llegada a sitio de carga"
+        android:textAllCaps="false"
+        android:textColor="#f9f9f9f9"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/reporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#fff834"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="Reporte de evento"
+        android:textAllCaps="false"
+        android:textColor="#f9f9f9f9"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/incidente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#f93333"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="Incidente"
+        android:textAllCaps="false"
+        android:textColor="#f9f9f9f9"
+        android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
